@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <title> CASE STUDY GOOGLE LENS VS MOBILENET</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+  </head>
+<body>
+  <div class="container">
+    <h4> CASE STUDY GOOGLE LENS VS MOBILENET</h4>
+    <br><br>
+    Google lens<img src="Google_Lens_-_new_logo.png"style="width:150px;">
+    <p>vs</p>
+    <button class="btn btn-primary">MobileNet</button>
+  </div>
+    <center>
+        <h3>Test Image</h3>
+        <br>
+        <img id="image" src="Teedy Bear.jpg">
+        <br>
+        <h5>output on <b>GOOGLE LENS</b>-<span>Teddy Bear</span></h5>
+        <br>
+        <h4>output on <b>MobileNet</b><span>Teddy Bear</span></h4>
+
+        <h3>Test Image</h3>
+        <br>
+        <img id="image" src="puppy.jpg">
+        <br>
+        <h5>output on <b>GOOGLE LENS</b>-<span>pomerian</span></h5>
+        <br>
+        <h4>output on <b>MobileNet</b><span>pomerian</span></h4>
+
+        <h3>Test Image</h3>
+        <br>
+        <img id="image" src="Bag.jpg">
+        <br>
+        <h5>output on <b>GOOGLE LENS</b>-<span>bag and luggage</span></h5>
+        <br>
+        <h4>output on <b>MobileNet</b><span>bag pack</span></h4>
+        <div id="result">
+            <h2>result</h2>
+            <hr>
+            <h2 id="output"></h2>
+        </div>
+    </center>
+</body>
